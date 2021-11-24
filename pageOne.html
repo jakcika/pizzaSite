@@ -7,6 +7,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+            background-color: White;
+        }
+        @media only screen and (max-width:600px){
+            body{
+                background-color: Grey;
+            }
+            p{
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size:30px;
+                color:white;
+            }
+            .list{
+                color: white;
+                font-size: 40px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+        }
+    </style>
+
+
     </head>
     <body>
         <div>
@@ -14,16 +37,16 @@
             <p>Makes 2,serves 4</p>
 
             <ul>
-            <h3>Base</h3>
+            <h3 class="list">Base</h3>
                 <li>300g Bread flour</li>
                 <li>1 tsp Yeast</li>
                 <li>1 tsp Salt</li>
                 <li>1 tsp Olive Oil</li>
-            <h3>Tomato Sauce</h3>
+            <h3 class="list">Tomato Sauce</h3>
                 <li>3 tbsp Tomato puree</li>
                 <li>Basil</li>
                 <li>1 clove Garlic</li>
-            <h3>Toppings</h3>
+            <h3 class="list">Toppings</h3>
                 <li>125g Mozzarella</li>
                 <li>handful parmesan</li>
                 <li>handful cherry tomatoes</li>
@@ -31,8 +54,14 @@
              
             </ul>
         
-            <button type="button" class="btn btn-primary">Homepage</button>
-            <button type="button" class="btn btn-primary">Next Page</button>
+            <!-- <button type="button" class="btn btn-primary">Homepage<a href="index.html"></a></button>
+            <button type="button" class="btn btn-primary">Next Page<a href="pagetwo.html"></a></button> -->
+            <a href="index.html">
+                <button type="button" class="btn btn-primary">Homepage</button>
+            </a>
+            <a href="pagetwo.html">
+                <button type="button" class="btn btn-primary">Next Page</button>
+            </a>
 
 
         </div>

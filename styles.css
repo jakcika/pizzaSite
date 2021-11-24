@@ -1,13 +1,14 @@
 .title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:red;
+    color:navy;
     font-weight: bolder;
     text-align: center;
 }
 
 .serves{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:navy;
     text-align: center;
     font-style: italic;
 }
+
