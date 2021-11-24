@@ -1,0 +1,26 @@
+body {
+
+}
+
+h1 {
+    position: relative;
+    left: 350px;
+    top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(22, 98, 168);
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+button {
+    padding: 20px 20px;
+
+}
+
+img {
+    position: relative;
+    left: 50px;
+    padding: 10px 20px;
+}
